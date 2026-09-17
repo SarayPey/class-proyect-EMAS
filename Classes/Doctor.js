@@ -1,4 +1,4 @@
-import { specialties } from "./Specialty.js";
+import { specialties } from './Specialty.js';
 
 class Doctor {
 	#nameDoc;

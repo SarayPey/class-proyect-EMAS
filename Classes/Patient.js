@@ -1,14 +1,17 @@
 class Patient {
-	#name;
-	#age;
+	#namePat;
+	#agePat;
 	#phoneNumberPat;
-	#address;
-	constructor(name, age, phoneNumberPat, address) {
-		this.#name = name;
-		this.#age = age;
+	#addressPat;
+	constructor(namePat, agePat, phoneNumberPat, addressPat) {
+		this.#namePat        = namePat;
+		this.#agePat         = agePat;
 		this.#phoneNumberPat = phoneNumberPat;
-		this.#address = address;
+		this.#addressPat     = addressPat;
 	};
+	showPatientInfo(){
+		return `Name: ${this.#namePat}<br>Age: ${this.#agePat}<br>Phone number: ${this.#phoneNumberPat}<br>Addess: ${this.#addressPat}`;
+	}
 };
 
 export {Patient}

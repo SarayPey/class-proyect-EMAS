@@ -1,0 +1,3 @@
+let appointments = []
+
+export {appointments}
